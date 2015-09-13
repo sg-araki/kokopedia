@@ -91,7 +91,7 @@ function showContent() {
   var zoom = view.getZoom();
   var rect = getRect();
   var sparql = 
-    'SELECT distinct ?name, ?abstract, ?lat, ?lon, ?url, ?link ' + 
+    'SELECT distinct ?name ?abstract ?lat ?lon ?url ?link ' + 
     'WHERE { ' +
     '?s rdfs:label ?name ; ' +
     'dbpedia-owl:abstract ?abstract ; ' +
